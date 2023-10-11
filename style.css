@@ -531,3 +531,31 @@ footer a{
     margin-bottom: 10px;
 }
 
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    cursor: pointer;
+    padding-right: 4px;
+    color: #465b52;
+}
+
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 10px;
+}
+
+footer .install img{ 
+    margin: 10px 0 15px 0;
+}
+
+footer a:hover , footer i:hover{
+    color:#088178;
+}
+
+footer .copy{
+    width: 100%;
+    text-align: center;
+}
