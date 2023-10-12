@@ -11,10 +11,8 @@ html {
     scroll-behavior: smooth;
 }
 
-html,
 body {
     width: 100%;
-    height: auto;
 }
 
 h1 {
@@ -641,7 +639,7 @@ footer .copy {
 
     #banner {
         height: 30vh;
-    } 
+    }
 
     #banner h2 {
         font-size: 30px;
@@ -661,6 +659,7 @@ footer .copy {
     #banner-3 .banner-box {
         width: 28%;
     }
+
     #news .form {
         width: 60%;
     }
@@ -668,19 +667,94 @@ footer .copy {
 
 /* mobile screen device Responsive Iphone -x */
 
-@media (max-width:477px) {
-    #header {
+@media (max-width:376px) {
 
-        padding: 14px 24px;
+
+    #header {
+        padding: 10px 29px;
     }
-    #hero{
-        padding: 0 30px;
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    #hero {
+        padding: 0 20px;
         background-position: 55%;
     }
 
     #hero button {
         width: 118px;
         height: 35px;
-       border-radius: 9px;
+        border-radius: 9px;
     }
+
+    #feature {
+        gap: 20px;
+    }
+
+    #feature .fe-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro {
+        width: 100%;
+        min-width: 250px;
+        margin: 37px -28px;
+    }
+
+    #banner {
+        height: 40vh;
+    }
+
+    #banner h2 {
+        font-size: 25px;
+        padding: 17px 26px;
+        text-align: center;
+    }
+
+    #banner button {
+        padding: 9px 13px;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 91%;
+        height: 30vh;
+    }
+
+    #sm-banner .banner-box2 {
+        margin-top: 20px;
+    }
+
+    #banner-3 {
+        padding: 10px 15px;
+    }
+
+    #banner-3 h2 {
+        font-size: 15px;
+    }
+
+    #banner-3 h3 {
+        font-size: 15.5px;
+    }
+
+    #news {
+        padding: 40px 20px;
+    }
+
+    #news .form {
+        width: 100%;
+    }
+
+    footer .copy {
+        text-align: start;
+    }
+
+
+
 }
