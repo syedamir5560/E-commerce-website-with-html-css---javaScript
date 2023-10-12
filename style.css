@@ -89,6 +89,11 @@ button.normal{
 
 }
 
+#mobile{
+    display: none;
+    align-items: center;
+}
+
 #navbar li {
     list-style: none;
     padding: 0 20px;
@@ -575,9 +580,37 @@ footer .copy{
         background-color: #e3e6f3;
         box-shadow: 0 40px 60px rgba(0,0,0,0.1);
         padding:80px 0 0 10px;
+        transition: all ease 0.3s;
     }
 
+    #navbar.active{
+        right: 0px;
+    }
     #navbar li{
         margin-bottom: 25px;
+    }
+
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i{
+        font-size: 24px;
+        color: #1a1a1a;
+        padding-left: 20px;
+    }
+
+    #close{
+        top:30px;
+        left:30px;
+        color: #222;
+        position: absolute;
+        font-size: 24px;
+
+    }
+
+    .lg-bag{
+        display: none;
     }
 }
