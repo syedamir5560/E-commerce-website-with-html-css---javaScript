@@ -704,8 +704,10 @@ footer .copy {
 
     #product1 .pro {
         width: 100%;
-        min-width: 250px;
-        margin: 37px -28px;
+       
+        margin-left: -20px;
+       
+    
     }
 
     #banner {
