@@ -595,6 +595,20 @@ footer .copy {
 color: white;
 }
 
+#pagination{
+    text-align: center;
+
+}
+
+#pagination a{
+    text-decoration: none;
+    padding: 10px 14px;
+    background-color: #088178;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+}
 
 
 
