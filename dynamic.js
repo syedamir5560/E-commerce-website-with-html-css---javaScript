@@ -15,11 +15,6 @@ if(close){
 }
 
 
-// single prod
 
-const smallimg=document.querySelector('.small=img');
-const mainimg=document.querySelector('#mainimg');
 
-smallimg.addEventListener("click", ()=>{
-        mainimg.document.innerHTML=".smallimg";
-})
+
