@@ -651,6 +651,14 @@ color: white;
     font-size: 26px;
 }
 
+#prodetails .single-pro-details select{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    display: block;    
+}
+
+
+
 
 
 
