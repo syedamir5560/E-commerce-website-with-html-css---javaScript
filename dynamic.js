@@ -13,3 +13,13 @@ if(close){
         nav.classList.remove('active');
     })
 }
+
+
+// single prod
+
+const smallimg=document.querySelector('.small=img');
+const mainimg=document.querySelector('#mainimg');
+
+smallimg.addEventListener("click", ()=>{
+        mainimg.document.innerHTML=".smallimg";
+})
