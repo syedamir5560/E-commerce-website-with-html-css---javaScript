@@ -767,9 +767,7 @@ color: white;
 
 /* mobile screen device Responsive Iphone -x */
 
-@media (max-width:376px) {
-
-
+@media (max-width:477px) {
     #header {
         padding: 10px 29px;
     }
@@ -858,5 +856,21 @@ color: white;
     }
 
     /* Single Product */
+
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image{
+
+            width: 113%;
+            margin-left: -28px;
+        }
+    
+    #prodetails .single-pro-details {
+            width: 113%;
+            margin-left: -28px;
+        }
+    
 
 }
