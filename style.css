@@ -654,7 +654,24 @@ color: white;
 #prodetails .single-pro-details select{
     padding: 5px 10px;
     margin-bottom: 10px;
-    display: block;    
+    display: block;     
+}
+
+#prodetails .single-pro-details input , #prodetails .single-pro-details input:focus{
+    width: 70px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 13px;
+    margin-right: 10px;
+    outline: none;
+}
+
+#prodetails .single-pro-details button{
+    background-color: #088178;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
 }
 
 
